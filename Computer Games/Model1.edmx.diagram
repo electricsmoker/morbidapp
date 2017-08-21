@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ff68b6aa8d8546c385f1b8f8c37e686b" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Championship" Width="1.5" PointX="6" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Championship1" Width="1.5" PointX="8.25" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.City" Width="1.5" PointX="3" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Coaches" Width="1.5" PointX="3" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CoachTrain" Width="1.5" PointX="7.5" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Competition" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Competition1" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CompetitionsGamers" Width="1.5" PointX="7.5" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CompetitionsTeams" Width="1.5" PointX="10.5" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Country" Width="1.5" PointX="0.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.GamerStuding" Width="1.5" PointX="10.5" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Games" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Iron" Width="1.5" PointX="8.25" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Nominations" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.People" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Player" Width="1.5" PointX="5.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Prizes" Width="1.5" PointX="5.25" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Results" Width="1.5" PointX="10.5" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Schools" Width="1.5" PointX="8.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Stages" Width="1.5" PointX="8.25" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagrams" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Teams" Width="1.5" PointX="5.25" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TeamsGamers" Width="1.5" PointX="7.5" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TeamsPlay" Width="1.5" PointX="13.5" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TeamsPrizes" Width="1.5" PointX="8.25" PointY="22.125" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Championship1_Championship" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Championship1_Games" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Results_Championship1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_City_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Player_City" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Teams_City" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Coaches_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CoachTrain_Coaches" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CoachTrain_Teams" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Competition1_Competition" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Competition1_Games" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CompetitionsGamers_Competition1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CompetitionsTeams_Competition1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TeamsPlay_Competition1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CompetitionsGamers_CompetitionsGamers" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CompetitionsGamers_Player" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CompetitionsGamers_Prizes" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CompetitionsTeams_Teams" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CompetitionsTeams_TeamsPrizes" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_GamerStuding_Player" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_GamerStuding_Schools" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Results_Iron" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Results_Iron1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TeamsGamers_Player" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Results_Stages" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Results_Teams" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Results_Teams1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Results_Teams2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TeamsGamers_Teams" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TeamsPlay_Teams" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

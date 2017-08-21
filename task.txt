@@ -1,0 +1,1 @@
+ to develop structure of database ( tables, fields and types of fields, keys, links, indexes ) for database that automates account of information for computer games competitions. Required minimum of data that database must to save and process is next : information about player, team, games, coaches, competitions and chempionships
