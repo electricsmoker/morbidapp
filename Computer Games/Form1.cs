@@ -40,6 +40,11 @@ namespace Computer_Games
             ChampionShips cs = new ChampionShips();
             cs.ShowDialog();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
    
 }
